@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Ejercicio1 {
     public static void main(String[] args) {
-        double ventas[] = new double[7];
+        double[] ventas = new double[7];
         int numeros = 0, suma = 0;
 
         Scanner entrada = new Scanner(System.in);
@@ -13,8 +13,8 @@ public class Ejercicio1 {
             numeros = entrada.nextInt();
             suma = suma + numeros;
 
-            System.out.println("La venta de esta semana es de: $" + suma);
         }
+        System.out.println("La venta de esta semana es de: $" + suma);
         entrada.close();
 
     }
