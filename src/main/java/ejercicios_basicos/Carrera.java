@@ -3,6 +3,7 @@ package ejercicios_basicos;
 import java.util.Scanner;
 
 public class Carrera {
+    //Ejercico del canal de youtube "TodoCode"
     public static void main(String[] args) {
         int numVehiculo=0;
         int vehiculoAux=0;

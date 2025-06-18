@@ -7,10 +7,6 @@ public class Cliente {
     public static void main(String[] args) {
 
         double total = 0; 
-    
-
-
-
         System.out.println("Ingrese el plan de TV que usa (1,2 o 3): ");
         try (Scanner teclado = new Scanner(System.in)) {
             teclado.nextInt();
